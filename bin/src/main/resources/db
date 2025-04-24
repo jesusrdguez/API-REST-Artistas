@@ -1,0 +1,50 @@
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Juice WRLD', 'Hip Hop');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Beethoven', 'Clásica');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'AC/DC', 'Rock');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Shakira', 'Pop');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Bad Bunny', 'Reguetón');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Daft Punk', 'Electrónica');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Luis Miguel', 'Bolero');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Adele', 'Soul');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Metallica', 'Heavy Metal');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Eminem', 'Rap');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'The Beatles', 'Rock');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Taylor Swift', 'Pop');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Kanye West', 'Hip Hop');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Queen', 'Rock');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Mozart', 'Clásica');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'BTS', 'K-Pop');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Frank Sinatra', 'Jazz');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Nirvana', 'Grunge');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Bruno Mars', 'R&B');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Bob Marley', 'Reggae');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Coldplay', 'Pop Rock');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Post Malone', 'Hip Hop');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Elvis Presley', 'Rock & Roll');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Travis Scott', 'Trap');
+INSERT INTO artista (id, nombre, genero)
+VALUES (NEXTVAL('hibernate_sequence'), 'Selena Gomez', 'Pop');
