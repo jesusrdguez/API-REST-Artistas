@@ -16,11 +16,6 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
-/**
- * Este servicio va a trabajar con la entidades.
- * Nunca con los DTOs, estos tienen que venir
- * convertidos del controllador.
- */
 
 @Service
 public class GestorArtistasServicio {
@@ -30,13 +25,6 @@ public class GestorArtistasServicio {
     @Autowired
     MusicGenreRepositorio musicGenreRepositorio;
 
-    /**
-     * Función que, haciendo uso del repositorio,
-     * recoge todos los artistas y los devuelve. En
-     * caso de no haber artistas, se lanza una excepción.
-     *
-     * @return
-     */
     public List<Artist> findAllArtists() {
         List<Artist> artistsList = artistRepositorio.findAll();
 
@@ -55,13 +43,7 @@ public class GestorArtistasServicio {
         }
     }
 
-    /**
-     * Función que recibe un artista, lo guarda y
-     * devuelve la entidad que se ha guardado con su id
-     *
-     * @param artist
-     * @return
-     */
+
     public Artist createArtist(Artist artist) {
         if (artist.getName().isEmpty())
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST);
@@ -69,16 +51,7 @@ public class GestorArtistasServicio {
             return artistRepositorio.save(artist);
     }
 
-    /**
-     * Función que recibe una entidad artista y un id de artista.
-     * Con el id hace la búsqueda en la base de datos para editar
-     * el artista con los datos proporcionados en la entidad artista.
-     * En caso de no encontrar el artista devuelve una excepción.
-     *
-     * @param artist
-     * @param artist_id
-     * @return
-     */
+
     public Artist editArtist(Artist artist, Long artist_id) {
         try {
             return artistRepositorio.findById(artist_id).map(a -> {

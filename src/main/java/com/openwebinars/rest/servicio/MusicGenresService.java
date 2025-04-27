@@ -14,7 +14,6 @@ import java.util.List;
 @Service
 public class MusicGenresService {
 
-    // El repositorio necesita de un constructor
     @Autowired
     MusicGenreRepositorio musicGenreRepositorio;
 

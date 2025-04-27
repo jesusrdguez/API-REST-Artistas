@@ -10,8 +10,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "music_genres")
 public class MusicGenre {
 
-    @Id // Indicamos la clave primaria de la entidad
-    // El campo id se generará automáticamente
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long genre_id;
 
