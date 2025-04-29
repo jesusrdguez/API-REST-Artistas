@@ -1,5 +1,7 @@
 package com.openwebinars.rest.modelo;
 
+import java.util.List;
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,6 +20,8 @@ public class Artist {
 	private String name;
 
 	private String nationality;
+
+	private List<String> images;
 
 	@ManyToOne
 	@JoinColumn(name = "genre_id")

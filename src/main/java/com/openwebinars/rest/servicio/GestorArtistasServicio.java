@@ -25,6 +25,7 @@ public class GestorArtistasServicio {
     @Autowired
     MusicGenreRepositorio musicGenreRepositorio;
 
+
     public List<Artist> findAllArtists() {
         List<Artist> artistsList = artistRepositorio.findAll();
 

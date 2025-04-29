@@ -8,5 +8,7 @@ public class ArtistDTO {
 
     private String name;
     private String genre_name;
+    private String nationality;
+    private String image;
 
 }

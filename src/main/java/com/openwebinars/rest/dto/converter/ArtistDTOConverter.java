@@ -12,7 +12,6 @@ public class ArtistDTOConverter {
 
     private final ModelMapper modelMapper;
 
-    
     public ArtistDTO convertToDto(Artist artist) {
         return modelMapper.map(artist, ArtistDTO.class);
     }
